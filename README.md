@@ -13,7 +13,7 @@ OOP task manager with priority sorting.
 
 ## Run the core
 ```bash
-./gradlew run (or compile Main.kt with kotlinc)
+kotlinc src/main/kotlin/Main.kt -include-runtime -d task-manager.jar && java -jar task-manager.jar
 ```
 
 ## UI
